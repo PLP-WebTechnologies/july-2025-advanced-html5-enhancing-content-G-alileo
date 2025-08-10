@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content</title>
+</head>
+<body>
+    <header>
+        <h1>Enhanced HTML5 Content</h1>
+        <p>Welcome to the enhanced HTML5 content page. This page demonstrates the use of lists, tables, media, and forms.</p>
+    </header>
+
+    <section>
+        <h2>Lists</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+        <ol>
+            <li>Learn HTML</li>
+            <li>Practice CSS</li>
+            <li>Master JavaScript</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Difficulty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Easy</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Hard</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Media</h2>
+        <img src="./Assets/portfolio_avatar.jpg" width="500" height="500" alt="Placeholder Image">
+        <audio controls>
+            <source src="./Assets/Julius Dreisig & Zeus X Crona - Invisible ｜ Trap ｜ NCS - Copyright Free Music [QglaLzo_aPk].webm" type="audio/mpeg">
+        </audio>
+        <video controls>
+            <source src="./Assets/Ailow - akina ｜ Dubstep ｜ NCS - Copyright Free Music [kHF9xV4vSD8].mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section>
+        <h2>HTML5 Form</h2>
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name" autocomplete="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email" autocomplete="email">
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="language">Favorite Language:</label>
+                <select id="language" name="language" required>
+                    <option value="">--Select--</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Your comments..."></textarea>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
